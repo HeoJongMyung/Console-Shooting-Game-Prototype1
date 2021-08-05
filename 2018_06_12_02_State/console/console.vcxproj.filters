@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ConsoleEx3">
+      <UniqueIdentifier>{9a410920-dbe9-4e43-aba9-ab23edd6fe58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{90b9f3cf-9b52-4ecc-972f-6d3b1ecfcbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet">
+      <UniqueIdentifier>{86091291-d531-4d4d-9f0c-270c6b9184fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{f43897b7-3d5e-4912-bdb9-b9287627f991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effect">
+      <UniqueIdentifier>{0153888a-ddee-4a75-91a8-b0116d2cdf6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleEx3\SysTimer.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hero.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ConsoleEx3\ConWrap.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapColors.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapDefines.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\SysTimer.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="bullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ConsoleEx3\개발일지.txt">
+      <Filter>ConsoleEx3</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="hero.h">
+      <Filter>Game</Filter>
+    </None>
+  </ItemGroup>
+</Project>
